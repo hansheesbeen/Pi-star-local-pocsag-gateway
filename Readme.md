@@ -16,3 +16,17 @@ Go to the menu item **Expert** and click on the menu item **MMDVMhost**.
 Find the Remote Control section here and put a 1 in the Enable input field. Save the changes by clicking **Apply**.
 
 Congratulations, Pi-star is now ready to send Pocsag messages locally.
+
+## Add paging.php to the Pi-star webserver
+
+Log in to your Pi-star with SSH.
+
+Change to the correct directory with the following command:
+> cd /var/www/dashboard
+
+In this directory, run the following commands:
+> rpi-rw
+
+> sudo wget https://github.com/hansheesbeen/Pi-star-local-pocsag-gateway/blob/main/paging.php
+
+>rpi-ro
