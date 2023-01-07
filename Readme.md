@@ -27,6 +27,12 @@ Change to the correct directory with the following command:
 In this directory, run the following commands:
 > rpi-rw
 
-> sudo wget https://github.com/hansheesbeen/Pi-star-local-pocsag-gateway/blob/main/paging.php
+> sudo wget https://raw.githubusercontent.com/hansheesbeen/Pi-star-local-pocsag-gateway/main/paging.php
 
 >rpi-ro
+
+Close the SSH connection.
+
+## Sending an test page
+
+In your browser, go to the url of your Pi-star device like http://pi-star.local or the IP address.
