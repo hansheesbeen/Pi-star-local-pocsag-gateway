@@ -25,15 +25,20 @@ Change to the correct directory with the following command:
 > cd /var/www/dashboard
 
 In this directory, run the following commands:
+
+we make the Pi-star image editable:
 > rpi-rw
 
 > sudo wget https://raw.githubusercontent.com/hansheesbeen/Pi-star-local-pocsag-gateway/main/paging.php
 
 To set your secret key:
 > sudo nano paging.php
+
 And edit/change the secret_key value, please do not change any other variables.
+
 Save with **CTRL+X** and then **Y**
 
+Next we make the Pi-star image read-only:
 >rpi-ro
 
 Close the SSH connection.
