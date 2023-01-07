@@ -11,10 +11,12 @@ $key 		= $_REQUEST['key'];
 $snd 		= 'sudo RemoteCommand 7643 page'.$ric.' "'.$msg.'"';
 	
 if($secret_key != $key){
+	echo "error";
 	exit();
 }
 else{
 	exec($snd);
+	echo $snd . " send!";
 	exit();
 }
 ?>
