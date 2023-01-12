@@ -47,6 +47,6 @@ Close the SSH connection.
 
 The format to send a message is easy to build:
 
-> paging.php?ric=**DMR_USER_ID**&key=**SECRET_KEY**&msg=**MESSAGE TO BE SEND**
+> /paging.php?ric=**DMR_USER_ID**&key=**SECRET_KEY**&msg=**MESSAGE TO BE SEND**
 
-In your browser, go to the url of your Pi-star device like http://pi-star.local or the IP address and add the paging.php string like above to the URL.
+In your browser, go to the url of your Pi-star device like http://pi-star.local or the IP address and add the /paging.php string like above to the URL.
