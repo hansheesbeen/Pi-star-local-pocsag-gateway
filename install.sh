@@ -24,7 +24,7 @@ done
 
 clear
 echo Check if the OS is pi-star:
-DIRE=/tmp
+DIRE=/var/www/dashboard
 if [ ! -d "$DIRE" ]; then
    	clear
 	echo "$DIRE does not exist."
